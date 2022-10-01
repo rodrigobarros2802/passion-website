@@ -30,6 +30,7 @@ section header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000000;
 }
 
 section header .logo {
@@ -94,6 +95,17 @@ section .container .box .imgBox img {
     filter: grayscale(1);
 }
 
+section .container .box .imgBox.active {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 1000;
+    width: calc(100% - 200px);
+    height: calc(100% - 200px);
+    opacity: 1;
+    filter: grayscale(0);
+}
+
 section .container .box .imgBox img:hover {
     opacity: 1;
     filter: grayscale(0);
@@ -109,6 +121,7 @@ section .container .box .imgBox img:hover {
     align-items: center;
     padding: 0 100px;
     height: 100px;
+    z-index: 1000000;
 }
 
 .rodape ul {
