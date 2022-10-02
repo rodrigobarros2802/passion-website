@@ -48,8 +48,8 @@
 <h1 align="center">:desktop_computer: Desktop / Notebook</h1>
 <p align="center"><img src=""></p>
 
-<h1 align="center">:link: Links</h1>
-<p align="center"></p>
+<h1 align="center">:link: Link Deploy</h1>
+<p align="center">Deploy - https://curious-hamster-bf816a.netlify.app/</p>
 
 <h1 align="center">:technologist: Autor</h1>
 <p align="center">LinkedIn - https://www.linkedin.com/in/rodrigobarros2802/</p>
